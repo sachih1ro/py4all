@@ -1,5 +1,5 @@
 # Algorithmic challenge: LCD digit printing
-# Reto de Algoritmia: impresión de digitos tipo LCD
+# Reto de Algoritmia: impresión de dígitos tipo LCD
 #
 # by @sachi_h1ro (Elias Camilo Cabarcas Carreño)
 
@@ -97,17 +97,18 @@ def generateText(size, value):
 # Main function
 def executeLCDDigitConverter():
     while True:
-        entrada = input("Ingrese una entrada: ")
+        entrada = input("Enter an entry: ")
         size = int(entrada.split(",")[0])
         value = int(entrada.split(",")[1])
         if (size > 0):
             generateText(size, value)
         elif ((size == 0) and (value == 0)): # "0,0" for finish the app
-            print("Ejecución finalizada, adiós.")
+            print("Execution finished, goodbye.")
             break
         else:
-            print("Ingrese valores validos, de la forma: size,number ")
-            print("size debe ser mayor a 0.")
+            print("Enter valid values (with the structure: size, number) ")
+            print("size and number are integers.")
+            print("size must be greater than 0.")
 
 
 # Execution
