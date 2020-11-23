@@ -6,8 +6,9 @@ def unclosedParenthesesCounter(str_parenthesis):
 
     #Loop for check the string
     for par in str_parenthesis:
-        #All "(" parentheses are openers
+        
         if par == "(":
+            #All "(" parentheses are openers
             countOpen += 1
 
         elif par == ")":
