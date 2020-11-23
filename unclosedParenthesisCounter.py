@@ -15,9 +15,11 @@ def unclosedParenthesesCounter(str_parenthesis):
             if (countOpen > 0):
                 #If we got any "(" unclosed previous, this ")" will be a closer
                 countOpen -= 1
-            elif (countOpen == 0):  # reemplazable por else
+            elif (countOpen == 0):
+                #But if we have a ")" with none "(" unclosed previous, we got an unclosable
                 countUnclousable += 1
-
+    
+    #The unclosed are the openeds plus the unclosables
     return(countOpen + countUnclousable)
 
 
