@@ -1,3 +1,7 @@
+# Algorithmic challenge: count of unbalanced parentheses
+# Reto de Algoritmia: conteo de paréntesis desbalanceados
+#
+# by @sachi_h1ro (Elias Camilo Cabarcas Carreño)
 
 #function for count uncloused parentheses "(" and ")"
 def unclosedParenthesesCounter(str_parenthesis):
@@ -27,5 +31,5 @@ def unclosedParenthesesCounter(str_parenthesis):
 #LETS TRY!!!
 
 str_parentesis_to_evaluate = "(()())" #str with parentheses to evaluate
-numUnClosed = unclosedParenthesesCounter(str_parentesis_to_evaluate) #evaluating, dah
+numUnClosed = unclosedParenthesesCounter(str_parentesis_to_evaluate) #evaluating
 print("The number of unclosed parentheses is " + str(numUnClosed)) #response
