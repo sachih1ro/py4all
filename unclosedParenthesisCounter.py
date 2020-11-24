@@ -3,6 +3,7 @@
 #
 # by @sachi_h1ro (Elias Camilo Cabarcas Carreño)
 
+
 #function for count uncloused parentheses "(" and ")"
 def unclosedParenthesesCounter(str_parenthesis):
     countOpen = 0           #Counter for open parenthesis "(" not closed with ")"
